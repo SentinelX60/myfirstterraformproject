@@ -1,0 +1,20 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform working directory
+.terraform/
+
+# Terraform variable files (if sensitive)
+terraform.tfvars
+
+# Service account keys
+*.json
+
+# Python virtual environments
+.venv/
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
