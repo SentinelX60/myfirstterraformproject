@@ -183,9 +183,9 @@ def create_gcp_diagram():
     
     # Save the diagram
     plt.tight_layout()
-    plt.savefig('C:/Users/bryan/Documents/MyFirstTerraformProject/diagram.png', 
+    plt.savefig('C:/Users/johnsmith/Documents/MyFirstTerraformProject/diagram.png', 
                 dpi=300, bbox_inches='tight', facecolor='#f8f9fa')
-    plt.savefig('C:/Users/bryan/Documents/MyFirstTerraformProject/diagram.pdf', 
+    plt.savefig('C:/Users/johnsmith/Documents/MyFirstTerraformProject/diagram.pdf', 
                 bbox_inches='tight', facecolor='#f8f9fa')
     
     print("✅ Diagram created successfully!")
