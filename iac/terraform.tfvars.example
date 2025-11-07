@@ -1,0 +1,5 @@
+# Example terraform.tfvars (DO NOT commit real credentials)
+project_id       = "myfirstterraformproject-465520"
+region           = "us-central1"
+zone             = "us-central1-a"
+# credentials_file = "C:/path/to/your/service-account-key.json"  # Set this locally, do NOT commit
