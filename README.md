@@ -7,7 +7,7 @@ This project demonstrates Infrastructure as Code (IaC) using Terraform to deploy
 ```
 MyFirstTerraformProject/
 ├── README.md                                    # This file - project documentation
-├── myfirstterraformproject-465520-5de4ddb88664.json  # GCP service account key (keep secure!)
+├── <service-account-key>.json                   # GCP service account key (keep secure!)
 └── iac/                                        # Infrastructure as Code directory
     ├── main.tf                                 # Main Terraform configuration
     ├── variables.tf                            # Variable definitions
