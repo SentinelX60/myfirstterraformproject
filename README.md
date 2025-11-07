@@ -1,5 +1,7 @@
 # My First Terraform Project
 
+![Secrets: None](https://img.shields.io/badge/secrets-none-brightgreen)
+
 This project demonstrates Infrastructure as Code (IaC) using Terraform to deploy a free-tier Google Compute Engine virtual machine on Google Cloud Platform (GCP).
 
 ## Project Structure
@@ -170,6 +172,14 @@ Once deployed, you can connect to your VM:
 2. **Use IAM roles**: Grant minimal required permissions to service accounts
 3. **Regular audits**: Review and rotate service account keys regularly
 4. **State file security**: Consider remote state storage for team projects
+
+## Security Status
+
+- Repo scan completed: no secret values or service-account JSON files are tracked in this repository.
+- `*.json` and `terraform.tfvars` are listed in `.gitignore` to prevent accidental commits of credentials.
+- Example and placeholder files are provided (`iac/terraform.tfvars.example`, `myfirstterraformproject-465520-5de4ddb88664.json.example`) for reviewers.
+
+For interviewers: see `INTERVIEW.md` for a concise project summary, setup steps, and notes on security practices.
 
 ## Troubleshooting
 
