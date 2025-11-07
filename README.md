@@ -9,12 +9,24 @@ This project demonstrates Infrastructure as Code (IaC) using Terraform to deploy
 ```
 MyFirstTerraformProject/
 ├── README.md                                    # This file - project documentation
-├── <service-account-key>.json                   # GCP service account key (keep secure!)
+├── SECURITY.md                                  # Security documentation and guidelines
+├── myfirstterraformproject-465520-5de4ddb88664.json.example  # Example service account key template
 └── iac/                                        # Infrastructure as Code directory
     ├── main.tf                                 # Main Terraform configuration
     ├── variables.tf                            # Variable definitions
     └── terraform.tfvars                        # Variable values (your specific settings)
 ```
+
+## Security 🔒
+
+This repository follows strict security practices to protect sensitive information and ensure secure infrastructure deployment. We have implemented:
+
+- Branch protection rules
+- Git exclusion patterns for sensitive files
+- Secure variable handling
+- Infrastructure as Code security best practices
+
+For detailed security information and guidelines, please see our [SECURITY.md](SECURITY.md) document.
 
 ## What This Project Creates
 
@@ -93,7 +105,7 @@ choco install terraform
 
 1. **Navigate to the iac directory**:
    ```powershell
-   cd C:\Users\bryan\Documents\MyFirstTerraformProject\iac
+   cd C:\Users\johnsmith\Documents\MyFirstTerraformProject\iac
    ```
 
 2. **Initialize Terraform**:
